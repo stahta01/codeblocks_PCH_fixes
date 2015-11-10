@@ -33,9 +33,4 @@ dist_pkgdata_DATA = dll.cbp \
 		SmartWin-main.cpp \
 		win32.cbp \
 		win32gui.template \
-		win32-main.cpp \
-		wxwidgets.cbp \
-		wxwidgets_static.cbp \
-		wxwidgets_u.cbp \
-		wxwidgets_static_u.cbp \
-		wxwidgets.template
+		win32-main.cpp
