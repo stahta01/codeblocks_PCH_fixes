@@ -22,7 +22,6 @@
 *
 */
 
-#include <sdk.h> // Code::Blocks SDK
 #include <configurationpanel.h>
 
 #include "wxsSmithIExplore.h"
