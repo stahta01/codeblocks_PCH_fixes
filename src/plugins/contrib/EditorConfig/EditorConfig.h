@@ -1,11 +1,6 @@
 #ifndef EDITORCONFIG_H
 #define EDITORCONFIG_H
 
-// For compilers that support pre-compilation, includes <wx/wx.h>
-#include <wx/wxprec.h>
-
-#ifndef WX_PRECOMP
-#endif
 
 #include <map>
 
