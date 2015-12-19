@@ -6,7 +6,6 @@
 #ifndef KODERSDIALOG_H
 #define KODERSDIALOG_H
 
-#include <wx/wxprec.h>
 
 //(*Headers(KodersDialog)
 #include <wx/sizer.h>
