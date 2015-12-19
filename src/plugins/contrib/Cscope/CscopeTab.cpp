@@ -1,3 +1,5 @@
+#include <sdk.h> // Code::Blocks SDK
+
 #include "CscopeConfig.h"
 #include "CscopeTab.h"
 #include <manager.h>
