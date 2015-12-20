@@ -1,3 +1,5 @@
+#include "sdk.h" // Code::Blocks SDK Precompiled Header
+
 #include "avSvnRevision.h"
 #include <wx/intl.h>
 #include <wx/utils.h>
