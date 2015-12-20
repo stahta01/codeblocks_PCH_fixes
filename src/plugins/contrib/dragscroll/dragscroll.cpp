@@ -6,10 +6,6 @@
  * License:   GPL
  **************************************************************/
 
-#if defined(__GNUG__) && !defined(__APPLE__)
-	#pragma implementation "dragscroll.h"
-#endif
-
 
 #include <sdk.h>
 #ifndef CB_PRECOMP

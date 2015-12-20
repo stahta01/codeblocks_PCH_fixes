@@ -9,13 +9,6 @@
 #ifndef DRAGSCROLL_H
 #define DRAGSCROLL_H
 
-#if defined(__GNUG__) && !defined(__APPLE__)
-	#pragma interface "dragscroll.h"
-#endif
-
-#ifdef __BORLANDC__
-	#pragma hdrstop
-#endif
 
 #include <wx/arrstr.h>
 #include <wx/dynarray.h>
