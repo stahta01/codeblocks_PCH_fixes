@@ -23,6 +23,7 @@
 #endif
 #include "compilerfactory.h"
 #include "advancedcompileroptionsdlg.h"
+#include "compilerfactory.h"
 
 // TODO : implement full IsDirty mechanism, now always forced to true when OK is pressed
 // NOTE : when OK pressed settings are already applied to the compiler, although in the compiler settings
