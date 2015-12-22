@@ -15,6 +15,7 @@
     #include <string>
     #include <vector>
 
+    #include <wx/menu.h>
     #include <wx/msgdlg.h>
     #include <wx/xrc/xmlres.h>
     #include <wx/fs_zip.h>
