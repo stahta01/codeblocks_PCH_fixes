@@ -12,6 +12,7 @@
 #ifndef CB_PRECOMP
     #include <algorithm>
     #include <wx/listctrl.h>
+    #include <wx/menu.h>
     #include <configmanager.h>
     #include <cbeditor.h>
     #include <editormanager.h>

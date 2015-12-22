@@ -7,8 +7,6 @@
  * $HeadURL$
  */
 
-#include "highlighter.h"
-
 #include <sdk.h> // Code::Blocks SDK
 
 #ifndef CB_PRECOMP
@@ -20,6 +18,8 @@
 
 #include <cbstyledtextctrl.h>
 #include <cbcolourmanager.h>
+
+#include "highlighter.h"
 
 enum Indicator : int {
     Background = 10,
