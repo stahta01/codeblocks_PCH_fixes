@@ -24,6 +24,7 @@
 #include "cdb_driver.h"
 #include "cdb_commands.h"
 #include "debuggeroptionsdlg.h"
+#include <infowindow.h>
 
 #include <cbdebugger_interfaces.h>
 
