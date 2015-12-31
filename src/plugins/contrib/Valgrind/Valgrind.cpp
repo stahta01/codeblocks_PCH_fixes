@@ -22,11 +22,11 @@
 #include "manager.h"
 #include "logmanager.h"
 #include "projectmanager.h"
-#include "macrosmanager.h"
 #endif
 #include <wx/filefn.h>
 #include <tinyxml.h>
 #include "loggers.h"
+#include <macrosmanager.h>
 #include "Valgrind.h"
 #include "ValgrindListLog.h"
 #include "valgrind_config.h"
