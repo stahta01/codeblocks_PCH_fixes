@@ -7,6 +7,8 @@
  * $HeadURL$
  */
 
+#include "sdk.h" // Code::Blocks SDK Precompiled Header
+
 //(*InternalHeaders(Execution)
 #include <wx/string.h>
 #include <wx/intl.h>

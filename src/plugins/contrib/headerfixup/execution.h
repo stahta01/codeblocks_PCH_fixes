@@ -6,11 +6,6 @@
 #ifndef EXECUTION_H
 #define EXECUTION_H
 
-#include <wx/wxprec.h>
-
-#ifdef __BORLANDC__
-#pragma hdrstop
-#endif
 
 //(*Headers(Execution)
 #include <wx/gauge.h>
