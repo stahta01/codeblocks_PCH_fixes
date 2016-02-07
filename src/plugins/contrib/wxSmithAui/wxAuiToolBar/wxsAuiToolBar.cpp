@@ -16,6 +16,7 @@
 * along with wxSmithAui. If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <wx/bitmap.h>
 #include "wxsAuiToolBar.h"
 
 #include <wxsadvqppchild.h>

@@ -16,6 +16,10 @@
 * along with wxSmithAui. If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <wx/bitmap.h>
+#include <wx/pen.h>
+#include <wx/sizer.h>
+
 #include "wxSmithAuiToolBar.h"
 
 // missing wxITEM_* items, the same as in wx/auibar.cpp, needed for adding spacer exception
