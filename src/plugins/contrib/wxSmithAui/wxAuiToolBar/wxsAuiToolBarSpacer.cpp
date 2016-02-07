@@ -16,11 +16,15 @@
 * along with wxSmithAui. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "wxsAuiToolBarSpacer.h"
+#include <wx/bitmap.h>
+#include <wx/pen.h>
+#include <wx/sizer.h>
 
 #include <wx/aui/auibar.h>
 
 #include <wxwidgets/wxsflags.h>
+
+#include "wxsAuiToolBarSpacer.h"
 
 using namespace wxsFlags;
 
