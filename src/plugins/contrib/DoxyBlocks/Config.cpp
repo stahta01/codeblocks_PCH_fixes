@@ -21,9 +21,7 @@
  *
  *****************************************************************************/
 
-#include "Config.h"
-
-#include "sdk.h"
+#include "sdk.h" // Code::Blocks SDK
 #ifndef CB_PRECOMP
     #include <wx/filename.h>
 
@@ -32,6 +30,8 @@
     #include <personalitymanager.h>
 #endif //CB_PRECOMP
 #include <wx/fileconf.h>
+
+#include "Config.h"
 
 /*! \brief Constructor.
  */

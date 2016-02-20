@@ -33,7 +33,8 @@
  *
  * Many thanks.
  *****************************************************************************/
-#include "sdk.h"
+
+#include "sdk.h" // Code::Blocks SDK
 #ifndef CB_PRECOMP
     #include <cbproject.h>
     #include <projectfile.h>

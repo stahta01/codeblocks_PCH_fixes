@@ -20,9 +20,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  *****************************************************************************/
-#include "DoxyBlocks.h"
 
-#include <sdk.h> // Code::Blocks SDK
+#include "sdk.h" // Code::Blocks SDK
 #ifndef CB_PRECOMP
     #include <wx/menu.h>
     #include <wx/process.h>
@@ -44,6 +43,8 @@
 
 #include <wx/tokenzr.h>
 #include <wx/textfile.h>
+
+#include "DoxyBlocks.h"
 
 #include "ConfigPanel.h"
 #include "DoxyBlocksLogger.h"

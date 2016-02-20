@@ -21,7 +21,7 @@
  *
  *****************************************************************************/
 
-#include <sdk.h> // Code::Blocks SDK
+#include "sdk.h" // Code::Blocks SDK
 #ifndef CB_PRECOMP
   #include <cbeditor.h>
   #include <configmanager.h>
