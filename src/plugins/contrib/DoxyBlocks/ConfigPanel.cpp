@@ -20,8 +20,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  *****************************************************************************/
-#include "ConfigPanel.h"
-#include <sdk.h> // Code::Blocks SDK
+
+#include "sdk.h" // Code::Blocks SDK
 
 //(*InternalHeaders(ConfigPanel)
 #include <wx/intl.h>
@@ -34,6 +34,8 @@
 #include <editorcolourset.h>
 #include <editormanager.h>
 #include <tinyxml.h>
+
+#include "ConfigPanel.h"
 
 #include "version.h"
 
