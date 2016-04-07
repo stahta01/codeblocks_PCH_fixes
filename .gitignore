@@ -3,14 +3,11 @@
 /src/output*
 debug
 release
-*.gch
 *.layout
 *.depend
 *.patch
 lib
 autorevision.h
-*.a
-*.exe
 autorevision
 cb_console_runner
 cb_console_runner29
