@@ -1,4 +1,5 @@
 .objs*
+/src/lib*
 /src/devel*
 /src/output*
 debug
@@ -6,7 +7,6 @@ release
 *.layout
 *.depend
 *.patch
-lib
 autorevision.h
 autorevision
 cb_console_runner
