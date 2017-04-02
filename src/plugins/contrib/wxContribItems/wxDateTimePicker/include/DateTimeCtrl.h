@@ -1,6 +1,9 @@
 #ifndef WXDATETIMEPICKERCTRL_H
 #define WXDATETIMEPICKERCTRL_H
 
+// In wx3.0.2, "wx/defs.h" is needed before wx/version.h under Linux
+//    or get [warning: "HAVE_VARIADIC_MACROS" redefined]
+#include <wx/defs.h>
 #include <wx/version.h>
 
 #if wxCHECK_VERSION(3, 0, 0)
