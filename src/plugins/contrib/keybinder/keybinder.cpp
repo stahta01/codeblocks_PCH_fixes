@@ -11,29 +11,13 @@
 // RCS-ID:      $Id$
 
 
-#if defined(kbLOGGING)
-    #include "debugging.h"
-#endif
-
-#ifdef __GNUG__
-#pragma implementation "keybinder.h"
-#endif
-
-// For compilers that support precompilation, includes "wx/wx.h".
-#include "wx/wxprec.h"
-
-#ifdef __BORLANDC__
-#pragma hdrstop
-#endif
-
-#ifndef WX_PRECOMP
-    #include "wx/wx.h"
-    #include "wx/log.h"
-#endif
-
 #if defined(CB_PRECOMP)
 #include "sdk.h"
 #else
+    #include <wx/log.h>
+    #include <wx/sizer.h>
+    #include <wx/textdlg.h>
+
     #include "sdk_events.h"
     #include "manager.h"
     #include "projectmanager.h"
@@ -51,10 +35,16 @@
 #include <wx/menuitem.h>
 #include <wx/string.h>
 #include "wx/statline.h"
-#include "keybinder.h"
-#include "menuutils.h"
 #include "wx/config.h"
 #include "wx/tokenzr.h"
+
+#if defined(kbLOGGING)
+    #include "debugging.h"
+#endif
+
+#include "keybinder.h"
+#include "menuutils.h"
+
 
 // class definition for wxKeyProfile
 IMPLEMENT_CLASS(wxKeyProfile, wxKeyBinder)
