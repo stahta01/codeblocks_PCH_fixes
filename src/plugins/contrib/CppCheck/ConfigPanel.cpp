@@ -1,9 +1,13 @@
+#include "sdk.h"
+#ifndef CB_PRECOMP
+    #include <wx/filedlg.h>
+
+    #include <configmanager.h>
+    #include <manager.h>
+#endif
+
 #include "ConfigPanel.h"
 
-#include <wx/filedlg.h>
-
-#include <manager.h>
-#include <configmanager.h>
 
 //(*InternalHeaders(ConfigPanel)
 #include <wx/sizer.h>
