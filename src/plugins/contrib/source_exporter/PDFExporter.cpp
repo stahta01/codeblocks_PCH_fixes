@@ -5,6 +5,7 @@
 #include "PDFExporter.h"
 #include "wx/pdfdoc.h"
 #include <configmanager.h>
+#include <editorcolourset.h>
 #include <wx/fontutil.h>
 #include <cstdlib>
 #include <algorithm>

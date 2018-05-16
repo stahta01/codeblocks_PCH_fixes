@@ -3,6 +3,7 @@
 
 #include "BaseExporter.h"
 #include <string>
+#include "globals.h" // HighlightLanguage
 
 using std::string;
 
