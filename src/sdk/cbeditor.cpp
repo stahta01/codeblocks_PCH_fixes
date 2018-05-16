@@ -17,17 +17,11 @@
     #include <wx/notebook.h>
     #include <wx/wfstream.h>
 
-    #include "cbeditor.h" // class's header file
-
-    #include "cbauibook.h"
-    #include "cbplugin.h"
     #include "cbproject.h"
     #include "configmanager.h"
     #include "debuggermanager.h"
-    #include "editorcolourset.h"
     #include "editormanager.h"
     #include "globals.h"
-    #include "infowindow.h"
     #include "logmanager.h"
     #include "macrosmanager.h" // ReplaceMacros
     #include "manager.h"
@@ -37,6 +31,7 @@
     #include "projectmanager.h"
     #include "sdk_events.h"
 #endif
+#include "cbplugin.h"
 #include "cbstyledtextctrl.h"
 #include "cbcolourmanager.h"
 
@@ -45,12 +40,17 @@
 #include <wx/fontutil.h>
 #include <wx/splitter.h>
 
+#include "cbauibook.h"
 #include "cbeditorprintout.h"
 #include "cbdebugger_interfaces.h"
 #include "editor_hooks.h"
+#include "editorcolourset.h"
 #include "encodingdetector.h"
 #include "filefilters.h"
+#include "infowindow.h"
 #include "projectfileoptionsdlg.h"
+
+#include "cbeditor.h" // class's header file
 
 const wxString g_EditorModified = _T("*");
 
