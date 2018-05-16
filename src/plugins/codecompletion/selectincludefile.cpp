@@ -7,11 +7,17 @@
  * $HeadURL$
  */
 
-#include "prep.h"
+#include <sdk.h>
+
+#ifndef CB_PRECOMP
+    #include <wx/button.h>
+    #include <wx/intl.h>
+    #include <wx/sizer.h>
+    #include <wx/xrc/xmlres.h>
+#endif // CB_PRECOMP
+
 #include "selectincludefile.h"
 
-#include <wx/xrc/xmlres.h>
-#include <wx/arrstr.h>
 
 BEGIN_EVENT_TABLE(SelectIncludeFile,wxScrollingDialog)
     EVT_LISTBOX_DCLICK(XRCID("ID_LBX_INCLUDE_FILES"),SelectIncludeFile::OnOk)
