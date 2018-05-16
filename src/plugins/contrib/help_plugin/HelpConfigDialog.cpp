@@ -7,20 +7,24 @@
  * $HeadURL$
  */
 
-#include "HelpConfigDialog.h"
-#include <wx/xrc/xmlres.h>
-#include <globals.h> // cbMessageBox
-#include <manager.h>
-#include <editormanager.h>
-#include <logmanager.h>
-#include <projectmanager.h>
+#include "sdk.h"
+#ifndef CB_PRECOMP
+    #include <wx/button.h>
+    #include <wx/checkbox.h>
+    #include <wx/filedlg.h>
+    #include <wx/listbox.h>
+    #include <wx/msgdlg.h>
+    #include <wx/textctrl.h>
+    #include <wx/xrc/xmlres.h>
 
-#include <wx/filedlg.h>
-#include <wx/msgdlg.h>
-#include <wx/listbox.h>
-#include <wx/textctrl.h>
-#include <wx/checkbox.h>
-#include <wx/button.h>
+    #include <globals.h> // cbMessageBox
+    #include <manager.h>
+    #include <editormanager.h>
+    #include <logmanager.h>
+    #include <projectmanager.h>
+#endif
+
+#include "HelpConfigDialog.h"
 
 #include <algorithm>
 

@@ -7,12 +7,17 @@
  * $HeadURL$
  */
 
+#include "sdk.h"
+#ifndef CB_PRECOMP
+    #include <wx/dynarray.h>
+    #include <wx/intl.h>
+
+    #include <configmanager.h>
+#endif
+
 #include <algorithm>
 
-#include <wx/intl.h>
-#include <wx/dynarray.h>
 #include <wx/textfile.h>
-#include <configmanager.h>
 
 #include "help_common.h"
 
