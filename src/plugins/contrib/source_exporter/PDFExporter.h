@@ -3,6 +3,8 @@
 
 #include "BaseExporter.h"
 #include <vector>
+#include <wx/colour.h>
+#include "globals.h" // HighlightLanguage
 
 using std::vector;
 

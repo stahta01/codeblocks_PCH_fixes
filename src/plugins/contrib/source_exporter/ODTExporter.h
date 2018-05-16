@@ -5,6 +5,7 @@
 #include <wx/wfstream.h>
 #include <wx/zipstrm.h>
 #include <string>
+#include "globals.h" // HighlightLanguage
 
 using std::string;
 

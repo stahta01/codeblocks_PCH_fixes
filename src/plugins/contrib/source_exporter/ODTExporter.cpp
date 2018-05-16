@@ -5,6 +5,7 @@
 
 #include "ODTExporter.h"
 #include <configmanager.h>
+#include <editorcolourset.h>
 #include <wx/fontutil.h>
 #include <cstring>
 #include <cstdlib>

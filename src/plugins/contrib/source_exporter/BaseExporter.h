@@ -1,10 +1,11 @@
 #ifndef BASEEXPORTER_INCLUDED
 #define BASEEXPORTER_INCLUDED
 
-#include <wx/wx.h>
-#include <wx/wxscintilla.h>
+#include "globals.h" // HighlightLanguage
 
-#include <editorcolourset.h>
+class EditorColourSet;
+class wxMemoryBuffer;
+class wxString;
 
 class BaseExporter
 {

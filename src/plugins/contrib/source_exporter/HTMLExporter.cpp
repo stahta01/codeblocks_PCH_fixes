@@ -4,6 +4,8 @@
 
 #include "HTMLExporter.h"
 #include <configmanager.h>
+#include <editorcolourset.h>
+
 #include <wx/fontutil.h>
 #include <cstdlib>
 #include <sstream>
