@@ -20,11 +20,8 @@
     #include "configmanager.h"
     #include "cbproject.h"
     #include "logmanager.h"
-    #include "pluginmanager.h"
     #include "editormanager.h"
-    #include "uservarmanager.h"
     #include "workspaceloader.h"
-    #include "cbworkspace.h"
     #include "cbeditor.h"
     #include "globals.h"
     #include "cbexception.h"  // for cbassert
@@ -33,8 +30,12 @@
 #include <wx/progdlg.h>
 
 #include "cbauibook.h"
+#include "cbplugin.h"
+#include "cbworkspace.h"
 //#include "filefilters.h"
 #include "filegroupsandmasks.h"
+#include "pluginmanager.h"
+#include "uservarmanager.h"
 
 template<> ProjectManager* Mgr<ProjectManager>::instance = nullptr;
 template<> bool  Mgr<ProjectManager>::isShutdown = false;

@@ -22,9 +22,7 @@
 
     #include "cbeditor.h"
     #include "cbexception.h"
-    #include "cbplugin.h"
     #include "cbproject.h"
-    #include "compilerfactory.h"
     #include "configmanager.h"
     #include "editormanager.h"
     #include "logmanager.h"
@@ -39,6 +37,9 @@
 
 #include "annoyingdialog.h"
 #include "cbdebugger_interfaces.h"
+#include "cbplugin.h"
+#include "compiler.h"
+#include "compilerfactory.h"
 #include "loggers.h"
 #include "manager.h"
 

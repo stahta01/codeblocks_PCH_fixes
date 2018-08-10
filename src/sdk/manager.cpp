@@ -21,16 +21,8 @@
     #include "editormanager.h"
     #include "logmanager.h"
     #include "pluginmanager.h"
-    #include "toolsmanager.h"
-    #include "macrosmanager.h"
     #include "configmanager.h"
-    #include "scriptingmanager.h"
-    #include "templatemanager.h"
-    #include "personalitymanager.h"
-    #include "uservarmanager.h"
-    #include "filemanager.h"
     #include "globals.h"
-    #include "xtra_res.h" // our new ToolBarAddOn handler
 #endif
 
 #include <wx/app.h>    // wxTheApp
@@ -47,6 +39,14 @@
 #include "cbcolourmanager.h"
 #include "ccmanager.h"
 #include "debuggermanager.h"
+#include "filemanager.h"
+#include "macrosmanager.h"
+#include "personalitymanager.h"
+#include "scriptingmanager.h"
+#include "templatemanager.h"
+#include "toolsmanager.h"
+#include "uservarmanager.h"
+#include "xtra_res.h" // our new ToolBarAddOn handler
 
 static Manager* s_ManagerInstance = nullptr;
 

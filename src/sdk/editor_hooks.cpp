@@ -11,10 +11,9 @@
 
 #ifndef CB_PRECOMP
     #include "cbeditor.h"
-    #include "cbplugin.h"
 #endif
 
-
+#include "cbplugin.h"
 #include "editor_hooks.h"
 
 #ifdef EDITOR_HOOK_PERFORMANCE_MEASURE
