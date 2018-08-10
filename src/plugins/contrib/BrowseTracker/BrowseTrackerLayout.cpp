@@ -30,7 +30,7 @@
 * $HeadURL$
 */
 
-#include "sdk_precomp.h"
+#include "sdk.h"
 #include "BrowseTrackerLayout.h"
 
 #ifndef CB_PRECOMP
