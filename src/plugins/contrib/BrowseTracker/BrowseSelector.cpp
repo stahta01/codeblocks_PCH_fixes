@@ -18,6 +18,7 @@
 */
 // RCS-ID: $Id$
 
+#include "sdk.h"
 
 #include <wx/listctrl.h>
 #include <wx/listbox.h>
@@ -37,6 +38,7 @@ extern const char *signpost_xpm[];
 #include "editorbase.h"
 #include "editormanager.h"
 #include "cbeditor.h"
+
 #include "configmanager.h"
 
 #include "BrowseTracker.h"

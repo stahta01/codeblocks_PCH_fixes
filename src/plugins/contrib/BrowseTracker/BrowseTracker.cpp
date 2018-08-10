@@ -92,6 +92,7 @@
 	#include <wx/menu.h>
 	#include <wx/xrc/xmlres.h>
 	#include <wx/fileconf.h>
+	#include <wx/toolbar.h>
 	#include <wx/utils.h>
     #include <wx/aui/auibook.h>
 
