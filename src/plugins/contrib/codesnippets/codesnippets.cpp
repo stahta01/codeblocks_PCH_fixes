@@ -32,8 +32,6 @@
 	#include "manager.h"
 	#include "configmanager.h"
 	#include "projectmanager.h"
-	#include "personalitymanager.h"
-	#include "cbworkspace.h"
 	#include "cbproject.h"
 	#include "logmanager.h"
 	#include "editorbase.h"
@@ -44,6 +42,8 @@
     #include <wx/dnd.h>
     #include <wx/utils.h>
 
+#include "cbworkspace.h"
+#include "personalitymanager.h"
 #include "version.h"
 #include "codesnippets.h"
 #include "codesnippetswindow.h"

@@ -39,12 +39,12 @@
         #include "editormanager.h"
         #include "logmanager.h"
         #include "globals.h"
-        #include "infowindow.h"
     #endif
 //-#else
 //-#endif
 
 #include "cbstyledtextctrl.h"
+#include "infowindow.h"
 #include "snippetitemdata.h"
 #include "codesnippetstreectrl.h"
 #include "codesnippetswindow.h"
