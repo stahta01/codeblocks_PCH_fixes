@@ -10,8 +10,8 @@
 
 #ifndef CB_PRECOMP
     #include <wx/timer.h>
-    #include "cbplugin.h"
 #endif
+#include "cbplugin.h"
 
 class UnfocusablePopupWindow;
 class wxHtmlLinkEvent;

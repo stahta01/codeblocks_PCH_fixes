@@ -18,13 +18,14 @@
     #include <wx/stattext.h>
     #include "globals.h"
     #include "manager.h"
-    #include "macrosmanager.h"
-    #include "uservarmanager.h"
 #endif
 
-#include "editpathdlg.h"
 #include <wx/filedlg.h>
 #include <wx/msgdlg.h>
+
+#include "editpathdlg.h"
+#include "macrosmanager.h"
+#include "uservarmanager.h"
 
 // remember last path, when supplied path is empty
 static wxString s_LastPath;

@@ -11,7 +11,6 @@
 #include "sdk_precomp.h"
 
 #ifndef CB_PRECOMP
-    #include "cbauibook.h"
     #include "cbeditor.h"
     #include "cbproject.h"
     #include "configmanager.h"
@@ -26,6 +25,8 @@
 
 #include <wx/tooltip.h>
 #include <wx/wupdlock.h>
+
+#include "cbauibook.h"
 
 // static
 bool cbAuiNotebook::s_AllowMousewheel = true;

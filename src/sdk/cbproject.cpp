@@ -23,15 +23,10 @@
     #include "cbproject.h" // class's header file
     #include "cbeditor.h"
     #include "cbtreectrl.h"
-    #include "compiler.h" // GetSwitches
-    #include "compilerfactory.h"
     #include "configmanager.h"
     #include "editormanager.h"
-    #include "filemanager.h"
     #include "globals.h"
-    #include "infowindow.h"
     #include "logmanager.h"
-    #include "macrosmanager.h"
     #include "manager.h"
     #include "pluginmanager.h"
     #include "projectbuildtarget.h"
@@ -41,11 +36,16 @@
 #endif
 
 #include <map>
+#include "compiler.h" // GetSwitches
+#include "compilerfactory.h"
 #include "projectloader.h"
 #include "projectlayoutloader.h"
 #include "selecttargetdlg.h"
 #include "filegroupsandmasks.h"
 #include "filefilters.h"
+#include "filemanager.h"
+#include "infowindow.h"
+#include "macrosmanager.h"
 #include "annoyingdialog.h"
 #include "genericmultilinenotesdlg.h"
 #include "compilercommandgenerator.h"

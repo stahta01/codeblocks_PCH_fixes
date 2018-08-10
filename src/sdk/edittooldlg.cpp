@@ -17,13 +17,14 @@
     #include <wx/string.h>
     #include <wx/textctrl.h>
     #include <wx/xrc/xmlres.h>
-    #include "cbtool.h"
     #include "cbexception.h"
     #include "globals.h"
 #endif
 
-#include "edittooldlg.h"
 #include <wx/filedlg.h>
+
+#include "cbtool.h"
+#include "edittooldlg.h"
 
 
 BEGIN_EVENT_TABLE(EditToolDlg, wxScrollingDialog)

@@ -22,7 +22,6 @@
     #include "logmanager.h"
     #include "macrosmanager.h"
     #include "cbproject.h"
-    #include "compilerfactory.h"
     #include "globals.h"
 #endif
 
@@ -34,6 +33,8 @@
 #include "projectloader.h"
 #include "projectloader_hooks.h"
 #include "annoyingdialog.h"
+#include "compiler.h"
+#include "compilerfactory.h"
 #include "configmanager.h"
 #include "tinywxuni.h"
 #include "filegroupsandmasks.h"
