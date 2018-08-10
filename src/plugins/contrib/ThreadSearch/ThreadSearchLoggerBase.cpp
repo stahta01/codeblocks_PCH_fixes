@@ -8,6 +8,8 @@
  * License:   GPL
  **************************************************************/
 
+#include "sdk.h" // Code::Blocks SDK and Precompiled Header
+
 #include <wx/gdicmn.h>
 #include <wx/menu.h>
 
