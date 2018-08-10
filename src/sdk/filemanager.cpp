@@ -10,18 +10,19 @@
 #include "sdk_precomp.h"
 
 #ifndef CB_PRECOMP
-    #include "filemanager.h"
-    #include "safedelete.h"
     #include "cbeditor.h"
     #include "editormanager.h"
-    #include "infowindow.h"
 #endif
-#include "cbstyledtextctrl.h"
+
+#include <memory>
 
 #include <wx/url.h>
 #include <wx/encconv.h>
 
-#include <memory>
+#include "cbstyledtextctrl.h"
+#include "infowindow.h"
+
+#include "filemanager.h"
 
 template<> FileManager* Mgr<FileManager>::instance = nullptr;
 template<> bool  Mgr<FileManager>::isShutdown = false;

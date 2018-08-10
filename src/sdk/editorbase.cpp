@@ -17,15 +17,14 @@
     #include "editorbase.h"
     #include "cbeditor.h"
     #include "editormanager.h"
-    #include "pluginmanager.h"
     #include "cbproject.h" // FileTreeData
     #include "projectmanager.h" // ProjectsArray
     #include <wx/wfstream.h>
 #endif
 
 #include "cbauibook.h"
-
 #include "cbstyledtextctrl.h"
+#include "pluginmanager.h"
 
 // needed for initialization of variables
 inline int editorbase_RegisterId(int id)

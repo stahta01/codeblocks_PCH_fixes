@@ -11,19 +11,19 @@
 
 #ifndef CB_PRECOMP
     #include "cbexception.h"
-    #include "compiler.h"
     #include "manager.h"
     #include "logmanager.h"
     #include "configmanager.h"
-    #include "macrosmanager.h"
     #include "globals.h"
-    #include "compilerfactory.h"
 
     #include <wx/intl.h>
     #include <wx/regex.h>
 #endif
 
+#include "compiler.h"
 #include "compilercommandgenerator.h"
+#include "compilerfactory.h"
+#include "macrosmanager.h"
 #include <wx/arrimpl.cpp>
 #include <wx/filefn.h>
 #include <wx/xml/xml.h>

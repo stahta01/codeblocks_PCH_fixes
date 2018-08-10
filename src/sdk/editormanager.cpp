@@ -19,34 +19,35 @@
 
     #include "cbeditor.h"
     #include "cbproject.h"
-    #include "compiler.h"
-    #include "compilerfactory.h"
     #include "configmanager.h"
     #include "editormanager.h" // class's header file
-    #include "filemanager.h"
     #include "logmanager.h"
-    #include "macrosmanager.h"
     #include "manager.h"
-    #include "pluginmanager.h"
     #include "projectbuildtarget.h"
     #include "projectmanager.h"
     #include "sdk_events.h"
 #endif
 
-#include "annoyingdialog.h"
-#include "cbstyledtextctrl.h"
-#include "cbcolourmanager.h"
 
 #include <wx/bmpbuttn.h>
 #include <wx/progdlg.h>
 #include <wx/tokenzr.h>
 
+#include "annoyingdialog.h"
 #include "cbauibook.h"
-#include "editorcolourset.h"
+#include "cbcolourmanager.h"
+#include "cbstyledtextctrl.h"
+#include "compiler.h"
+#include "compilerfactory.h"
 #include "confirmreplacedlg.h"
+#include "editorcolourset.h"
 #include "filefilters.h"
-#include "projectfileoptionsdlg.h"
 #include "filegroupsandmasks.h"
+#include "filemanager.h"
+#include "macrosmanager.h"
+#include "pluginmanager.h"
+#include "projectfileoptionsdlg.h"
+
 
 template<> EditorManager* Mgr<EditorManager>::instance = nullptr;
 template<> bool  Mgr<EditorManager>::isShutdown = false;
