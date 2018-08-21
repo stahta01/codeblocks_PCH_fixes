@@ -6,9 +6,10 @@
  * Copyright: (c) Zlika
  * License:   GPL
  **************************************************************/
+#include "sdk.h"
+
 #include "codestatexec.h"
 
-#include "sdk.h"
 #ifndef CB_PRECOMP
 #   include <wx/choice.h>
 #   include <wx/gauge.h>
