@@ -22,15 +22,17 @@
 					<Add option="-m64" />
 					<Add option="-fmessage-length=0" />
 					<Add option="-fexceptions" />
+					<Add option="-Winvalid-pch" />
+					<Add option='-include &quot;sdk.h&quot;' />
 					<Add option="-DBUILDING_PLUGIN" />
-					<Add option="-DHAVE_W32API_H" />
 					<Add option="-D__WXMSW__" />
 					<Add option="-DWXUSINGDLL" />
 					<Add option="-DcbDEBUG" />
-					<Add option="-DNOPCH" />
+					<Add option="-DCB_PRECOMP" />
 					<Add option="-DwxUSE_UNICODE" />
 					<Add option="-D_WIN64" />
 					<Add option="-DBOOST_SYSTEM_NO_DEPRECATED" />
+					<Add directory="../../../.objs31_64/include" />
 					<Add directory="../../../include" />
 					<Add directory="../../../include/tinyxml" />
 					<Add directory="../../../sdk/wxscintilla/include" />
