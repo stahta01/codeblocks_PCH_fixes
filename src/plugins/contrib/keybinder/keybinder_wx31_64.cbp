@@ -20,9 +20,9 @@
 					<Add option="-fmessage-length=0" />
 					<Add option="-fexceptions" />
 					<Add option="-Wno-unused-local-typedefs" />
+					<Add option="-Winvalid-pch" />
 					<Add option="-DBUILDING_PLUGIN" />
-					<Add option="-DNOPCH" />
-					<Add option="-DHAVE_W32API_H" />
+					<Add option="-DCB_PRECOMP" />
 					<Add option="-D__WXMSW__" />
 					<Add option="-D_WIN64" />
 					<Add option="-DWXUSINGDLL" />
@@ -46,6 +46,7 @@
 			<Add option="-Wall" />
 			<Add option="$(#CB_RELEASE_TYPE)" />
 			<Add option="-std=gnu++11" />
+			<Add directory="../../../.objs31_64/include" />
 			<Add directory="../../../include" />
 			<Add directory="../../../include/tinyxml" />
 			<Add directory="../../../sdk/wxscintilla/include" />
