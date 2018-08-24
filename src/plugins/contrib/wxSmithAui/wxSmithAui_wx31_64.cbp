@@ -21,6 +21,7 @@
 					<Add option="-fPIC" />
 					<Add option="`$(WX_CONFIG) --cflags`" />
 					<Add option="-fexceptions" />
+					<Add option="-DNOPCH" />
 				</Compiler>
 				<Linker>
 					<Add option="`$(WX_CONFIG) --libs std,aui,propgrid`" />
@@ -40,6 +41,7 @@
 				<Option parameters="--debug-log --multiple-instance -na -ns -nd -p debug" />
 				<Option host_application="../../../devel31_64/codeblocks.exe" />
 				<Option run_host_application_in_terminal="0" />
+				<Option projectIncludeDirsRelation="2" />
 				<Compiler>
 					<Add option="$(#CB_RELEASE_TYPE)" />
 					<Add option="-pipe" />
@@ -47,11 +49,14 @@
 					<Add option="-fmessage-length=0" />
 					<Add option="-fexceptions" />
 					<Add option="-std=gnu++11" />
-					<Add option="-DHAVE_W32API_H" />
+					<Add option='-include &quot;sdk.h&quot;' />
+					<Add option="-Winvalid-pch" />
 					<Add option="-D__WXMSW__" />
 					<Add option="-D_WIN64" />
+					<Add option="-DCB_PRECOMP" />
 					<Add directory="$(#WX31_64.include)" />
 					<Add directory="$(#WX31_64.lib)/gcc_dll$(WX_CFG)/msw$(WX_SUFFIX)" />
+					<Add directory="../../../.objs31_64/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-Wl,--enable-auto-image-base" />
@@ -85,7 +90,6 @@
 			<Add option="-DwxUSE_UNICODE" />
 			<Add option="-DWXUSINGDLL" />
 			<Add option="-DcbDEBUG" />
-			<Add option="-DNOPCH" />
 			<Add directory="../../../include" />
 			<Add directory="../../../include/tinyxml" />
 			<Add directory="../../../sdk/wxscintilla/include" />
