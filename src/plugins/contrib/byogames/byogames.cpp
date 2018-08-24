@@ -5,11 +5,12 @@
  * Copyright: (c) BYO
  * License:   GPL
  **************************************************************/
+#include "sdk.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-#include "sdk.h"
 #ifndef CB_PRECOMP
 #include <wx/intl.h>
 #include <wx/string.h>
