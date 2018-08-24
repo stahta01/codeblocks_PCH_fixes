@@ -1,3 +1,5 @@
+#include "sdk.h"
+
 #include "ReopenEditorConfDLg.h"
 #include "ReopenEditor.h"
 #include "configmanager.h"
