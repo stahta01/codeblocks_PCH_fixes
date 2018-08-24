@@ -36,12 +36,12 @@
 			<Add option="-std=gnu++11" />
 			<Add option="-m64" />
 			<Add option="-fno-keep-inline-dllexport" />
-			<Add option="-DHAVE_W32API_H" />
 			<Add option="-D__WXMSW__" />
 			<Add option="-DWXUSINGDLL" />
 			<Add option="-DcbDEBUG" />
 			<Add option="-DwxUSE_UNICODE" />
 			<Add option="-D_WIN64" />
+			<Add option="-DNOPCH" />
 			<Add directory="$(#WX31_64.include)" />
 			<Add directory="$(#WX31_64.lib)/gcc_dll$(WX_CFG)/msw$(WX_SUFFIX)" />
 			<Add directory="../../include" />
