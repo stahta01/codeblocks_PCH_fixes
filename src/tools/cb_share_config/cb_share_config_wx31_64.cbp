@@ -28,10 +28,9 @@
 			<Add option="-m64" />
 			<Add option="-fmessage-length=0" />
 			<Add option="-fexceptions" />
-			<Add option="-DUSE_PCH" />
+			<Add option="-DNOPCH" />
 			<Add option="-D__GNUWIN32__" />
 			<Add option="-D__WXMSW__" />
-			<Add option="-DHAVE_W32API_H" />
 			<Add option="-DwxUSE_UNICODE" />
 			<Add option="-DWXUSINGDLL" />
 			<Add option="-D_WIN64" />
