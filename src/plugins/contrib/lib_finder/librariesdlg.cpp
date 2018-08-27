@@ -15,7 +15,6 @@
 //*)
 
 #include <algorithm>
-#include <sdk.h>
 #include <manager.h>
 #include <configmanager.h>
 #include <globals.h>
