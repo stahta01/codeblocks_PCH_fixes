@@ -1,4 +1,3 @@
-#include <sdk.h> // Code::Blocks SDK
 #include <configurationpanel.h>
 #include "wxSmithAui.h"
 
