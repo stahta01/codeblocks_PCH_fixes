@@ -21,7 +21,6 @@
 * $HeadURL$
 */
 
-#include <sdk.h> // Code::Blocks SDK
 #include <configurationpanel.h>
 #include "wxSmithContribItems.h"
 
