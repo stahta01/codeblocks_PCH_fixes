@@ -2,10 +2,8 @@
 #include <wx/txtstrm.h>
 
 
-#include <sdk.h> // Code::Blocks SDK
-#ifndef CB_PRECOMP
     #include <cbeditor.h>
-#endif
+
 #include <configurationpanel.h>
 #include <cbstyledtextctrl.h>
 #include <cbcolourmanager.h>
