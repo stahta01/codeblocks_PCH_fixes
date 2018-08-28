@@ -20,6 +20,8 @@
 * $HeadURL$
 */
 
+#include "sdk.h" // Code::Blocks SDK Precompiled Header
+
 #include "SearchDialog.h"
 #include "ExpressionParser.h"
 #include "ExpressionExecutor.h"
