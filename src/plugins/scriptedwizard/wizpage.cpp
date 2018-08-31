@@ -15,13 +15,13 @@
     #include <configmanager.h>
     #include <projectmanager.h>
     #include <scriptingmanager.h>
-    #include <compilerfactory.h>
-    #include <compiler.h>
     #include <macrosmanager.h>
     #include <cbproject.h>
     #include <cbexception.h>
 #endif
 
+#include <compilerfactory.h>
+#include <compiler.h>
 #include <scripting/bindings/sc_base_types.h>
 
 #include "wizpage.h"
