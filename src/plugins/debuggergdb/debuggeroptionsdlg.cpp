@@ -20,8 +20,9 @@
     #include <wx/xrc/xmlres.h>
 
     #include <configmanager.h>
-    #include <macrosmanager.h>
 #endif
+
+#include <macrosmanager.h>
 
 #include "debuggergdb.h"
 
