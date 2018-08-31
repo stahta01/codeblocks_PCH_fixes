@@ -1,10 +1,10 @@
 #include <wx/aui/aui.h>
 #include <sdk.h> // Code::Blocks SDK
 #ifndef CB_PRECOMP
-    #include <cbauibook.h>
     #include <cbproject.h>
     #include <projectmanager.h>
 #endif
+ #include <cbauibook.h>
 //#include <configurationpanel.h>
 
 #include "FileManager.h"
