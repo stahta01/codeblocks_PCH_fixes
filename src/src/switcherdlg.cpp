@@ -9,8 +9,8 @@
 // Licence:     wxWidgets licence
 /////////////////////////////////////////////////////////////////////////////
 
-#include <wx/wx.h>
 
+#include <wx/sizer.h>
 #include <wx/settings.h>
 #include <wx/dcbuffer.h>
 

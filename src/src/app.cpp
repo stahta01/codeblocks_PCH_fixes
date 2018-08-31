@@ -25,6 +25,7 @@
 #include <wx/debugrpt.h>
 #include <wx/ipc.h>
 #include <wx/msgout.h>
+#include <wx/dcmemory.h>
 
 #include <cbexception.h>
 #include <configmanager.h>

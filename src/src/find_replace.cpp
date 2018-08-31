@@ -14,6 +14,7 @@
 
 #include <wx/progdlg.h>
 
+#include "cbauibook.h"
 #include "annoyingdialog.h"
 #include "cbauibook.h"
 #include "cbstyledtextctrl.h"

@@ -6,11 +6,6 @@
 #ifndef SCRIPTCONSOLE_H
 #define SCRIPTCONSOLE_H
 
-#include <wx/wxprec.h>
-
-#ifdef __BORLANDC__
-    #pragma hdrstop
-#endif
 
 //(*Headers(ScriptConsole)
 #include <wx/bmpbuttn.h>

@@ -9,6 +9,10 @@
 
 #include <sdk.h>
 
+#include <wx/dcclient.h>
+#include <wx/filedlg.h>
+#include <wx/textdlg.h>
+
 #include "app.h"
 #include "appglobals.h"
 #include "batchbuild.h"
