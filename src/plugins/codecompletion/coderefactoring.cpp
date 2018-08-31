@@ -18,7 +18,6 @@
 
     #include <cbeditor.h>
     #include <cbproject.h>
-    #include <editorcolourset.h>
     #include <editormanager.h>
     #include <logmanager.h>
 #endif
@@ -26,6 +25,7 @@
 #include <wx/progdlg.h>
 
 #include <cbstyledtextctrl.h>
+#include <editorcolourset.h>
 #include <encodingdetector.h>
 #include <searchresultslog.h>
 
