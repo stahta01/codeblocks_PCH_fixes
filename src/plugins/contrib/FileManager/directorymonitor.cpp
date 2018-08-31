@@ -1,5 +1,7 @@
 #include "sdk.h"
 
+#include <wx/msgdlg.h> // wxMessageBox
+
 #include "directorymonitor.h"
 #include <vector>
 #include "se_globals.h"

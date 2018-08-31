@@ -1,3 +1,5 @@
+#include "sdk.h" // Code::Blocks SDK Precompiled Header
+
 #include "CommitBrowser.h"
 #include "FileExplorerUpdater.h"
 

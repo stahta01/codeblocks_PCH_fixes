@@ -1,7 +1,7 @@
 #ifndef FILEEXPLORER_H
 #define FILEEXPLORER_H
 
-#include <wx/wx.h>
+
 #include <wx/treectrl.h>
 #include <wx/combobox.h>
 #include <wx/dynarray.h>
@@ -10,6 +10,10 @@
 #include "FileExplorerSettings.h"
 #include "FileExplorerUpdater.h"
 #include "directorymonitor.h"
+
+class wxBoxSizer;
+class wxCheckBox;
+class wxStaticText;
 
 class UpdateQueue;
 

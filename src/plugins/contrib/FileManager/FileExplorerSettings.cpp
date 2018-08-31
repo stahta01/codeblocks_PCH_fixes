@@ -1,6 +1,10 @@
+#include "sdk.h" // Code::Blocks SDK Precompiled Header
+
 #include "FileExplorerSettings.h"
 
-#include <sdk.h>
+#include <wx/dirdlg.h>
+#include <wx/listbox.h>
+
 #ifndef CB_PRECOMP
   #include <wx/xrc/xmlres.h>
   #include <wx/checkbox.h>

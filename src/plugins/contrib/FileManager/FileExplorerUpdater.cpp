@@ -1,7 +1,10 @@
-#include <sdk.h>
+#include "sdk.h" // Code::Blocks SDK Precompiled Header
 
+#include <wx/checkbox.h>
+#include <wx/dir.h>
 #include <wx/sstream.h>
 #include <wx/regex.h>
+#include <wx/stattext.h>
 #include <set>
 
 #include "FileExplorerUpdater.h"
