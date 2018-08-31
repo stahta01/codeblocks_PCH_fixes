@@ -18,7 +18,6 @@
 	#include <wx/listctrl.h>
 	#include "configmanager.h"
 	#include "manager.h"
-	#include "personalitymanager.h"
 	#include "sdk_events.h" // EVT_APP_STARTUP_DONE
 #endif
 
@@ -31,6 +30,7 @@
 #include "dragscrollevent.h"
 #include "logmanager.h"
 #include "loggers.h"
+#include "personalitymanager.h"
 #include "projectmanager.h"
 #include "editormanager.h"
 
