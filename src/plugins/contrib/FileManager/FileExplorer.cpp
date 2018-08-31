@@ -1,15 +1,20 @@
+#include "sdk.h" // Code::Blocks SDK Precompiled Header
+
 #include "FileExplorer.h"
 #include <wx/dir.h>
 #include <wx/filename.h>
 #include <wx/aui/aui.h>
+#include <wx/menu.h>
+#include <wx/textdlg.h>
+#include <wx/dirdlg.h>
 
-#include <sdk.h>
 #ifndef CB_PRECOMP
-    #include <wx/dnd.h>
     #include <wx/imaglist.h>
 
     #include <cbproject.h>
     #include <configmanager.h>
+    #include <editorbase.h>
+    #include <editormanager.h>
     #include <projectmanager.h>
 #endif
 

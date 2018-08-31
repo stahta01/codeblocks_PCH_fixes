@@ -1,4 +1,8 @@
 #include "sdk.h"
+
+#include <editorbase.h>
+#include <editormanager.h>
+
 #include "se_globals.h"
 
 wxString GetParentDir(const wxString &path)
