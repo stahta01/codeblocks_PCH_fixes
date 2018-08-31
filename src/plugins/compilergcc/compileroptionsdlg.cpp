@@ -32,7 +32,6 @@
     #include "compilerfactory.h"
     #include "configmanager.h"
     #include "globals.h"
-    #include "macrosmanager.h"
     #include "manager.h"
     #include "logmanager.h"
     #include "projectmanager.h"
@@ -49,6 +48,8 @@
 #include "debuggermanager.h"
 #include "editpathdlg.h"
 #include "editpairdlg.h"
+#include "macrosmanager.h"
+
 #include "compilerflagdlg.h"
 
 // TO DO :  - add/edit/delete compiler : applies directly , so no cancel out (change this behaviour)
