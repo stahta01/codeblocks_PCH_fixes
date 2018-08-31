@@ -9,6 +9,7 @@
 #include <settings.h> // SDK
 #include <cbplugin.h>
 #include <cbproject.h>
+#include <cbstyledtextctrl.h>
 #include <sdk_events.h>
 
 #include "coderefactoring.h"
