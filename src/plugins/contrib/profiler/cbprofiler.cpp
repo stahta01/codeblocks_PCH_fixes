@@ -17,8 +17,6 @@
     #include <wx/xrc/xmlres.h>
     #include "cbproject.h"
     #include "configmanager.h"
-    #include "globals.h"
-    #include "macrosmanager.h"
     #include "manager.h"
     #include "logmanager.h"
     #include "projectbuildtarget.h"
@@ -26,6 +24,9 @@
 #endif
 #include <wx/choicdlg.h>
 #include <wx/filedlg.h>
+
+#include "macrosmanager.h"
+
 #include "cbprofiler.h"
 #include "cbprofilerconfig.h"
 #include "cbprofilerexec.h"
