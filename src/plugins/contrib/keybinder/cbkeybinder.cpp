@@ -26,7 +26,6 @@
     #include "editormanager.h"
     #include "manager.h"
     #include "pluginmanager.h"
-    #include "personalitymanager.h"
 #endif
 
 #if defined(LOGGING)
@@ -41,6 +40,7 @@
 #include <vector>
 
 #include "cbstyledtextctrl.h"
+#include "personalitymanager.h"
 
 #include "menuutils.h"
 #include "cbkeybinder.h"
