@@ -15,6 +15,7 @@
 #include <wx/listbox.h>
 #include <wx/panel.h>
 #include <wx/button.h>
+#include <wx/combobox.h>
 
 class AbbreviationsConfigPanel: public cbConfigurationPanel
 {
