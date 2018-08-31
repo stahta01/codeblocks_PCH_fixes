@@ -12,12 +12,13 @@
 #ifndef CB_PRECOMP
     #include <configurationpanel.h>
     #include <cbstyledtextctrl.h>
-    #include <editorcolourset.h>
 #endif
 
 #include "abbreviations.h"
 #include "abbreviationsconfigpanel.h"
 
+#include <cbstyledtextctrl.h>
+#include <editorcolourset.h>
 #include <ccmanager.h>
 #include <editor_hooks.h>
 #include <sqplus.h>

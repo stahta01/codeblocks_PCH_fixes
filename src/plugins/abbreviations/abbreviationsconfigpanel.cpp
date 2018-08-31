@@ -16,11 +16,11 @@
     #include <wx/choicdlg.h>
 
     #include <configmanager.h>
-    #include <editorcolourset.h>
     #include <editormanager.h>
     #include <logmanager.h>
 #endif
 
+#include <editorcolourset.h>
 #include "cbcolourmanager.h"
 
 BEGIN_EVENT_TABLE(AbbreviationsConfigPanel, cbConfigurationPanel)
