@@ -17,6 +17,10 @@
 #include <vector>
 #include <iostream>
 
+#include <wx/dnd.h>
+
+#include <cbplugin.h>
+
 #include "se_globals.h"
 #include "CommitBrowser.h"
 
