@@ -25,7 +25,6 @@
 	#include "configmanager.h"
 	#include "editormanager.h"
 	#include "manager.h"
-	#include "personalitymanager.h"
 	#include "sdk_events.h" // EVT_APP_STARTUP_DONE
 #endif
 
@@ -33,6 +32,8 @@
 #include <wx/clipbrd.h>
 #include <wx/strconv.h>
 #include "cbstyledtextctrl.h"
+#include "personalitymanager.h"
+
 #include "MouseSap.h"
 
 #if defined(__WXGTK__)
