@@ -26,13 +26,15 @@
   #include "editormanager.h"
   #include "globals.h"
   #include "manager.h"
-  #include "macrosmanager.h"
   #include "projectmanager.h"
 #endif
-#include "cbstyledtextctrl.h"
 
 #include <wx/tokenzr.h>
 #include <wx/dirdlg.h>
+
+#include "cbstyledtextctrl.h"
+#include "macrosmanager.h"
+
 #include "classwizarddlg.h"
 
 BEGIN_EVENT_TABLE(ClassWizardDlg, wxScrollingDialog)
