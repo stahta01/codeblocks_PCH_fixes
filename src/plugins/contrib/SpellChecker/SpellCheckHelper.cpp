@@ -16,8 +16,6 @@
 * along with SpellChecker. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-#include "SpellCheckHelper.h"
-
 #include <sdk.h> // Code::Blocks SDK
 #ifndef CB_PRECOMP
 #include <configmanager.h>
@@ -27,6 +25,7 @@
 #include <cbstyledtextctrl.h>
 
 #include "SpellCheckerPlugin.h"
+#include "SpellCheckHelper.h"
 
 SpellCheckHelper::SpellCheckHelper()
 {

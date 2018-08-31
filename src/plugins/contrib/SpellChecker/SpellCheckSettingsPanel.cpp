@@ -16,6 +16,9 @@
 * along with SpellChecker. If not, see <http://www.gnu.org/licenses/>.
 *
 */
+
+#include "sdk.h" // Code::Blocks SDK Precompiled Header
+
 #include "SpellCheckSettingsPanel.h"
 
 #include "SpellCheckerConfig.h"

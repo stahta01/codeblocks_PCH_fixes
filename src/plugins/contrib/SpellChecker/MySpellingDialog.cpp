@@ -16,6 +16,20 @@
 * along with SpellChecker. If not, see <http://www.gnu.org/licenses/>.
 *
 */
+
+#include "sdk.h" // Code::Blocks SDK
+
+#include <wx/button.h>
+#include <wx/choice.h>
+#include <wx/listbox.h>
+#include <wx/sizer.h>
+#include <wx/stattext.h>
+#include <wx/valtext.h>
+
+#include <cbeditor.h>
+#include <cbstyledtextctrl.h>
+
+
 #include "prep.h"
 
 #include "MySpellingDialog.h"

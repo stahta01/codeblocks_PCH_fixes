@@ -19,17 +19,13 @@
 #ifndef THESAURUS_H
 #define THESAURUS_H
 
-// For compilers that support precompilation, includes "wx/wx.h".
-#include "wx/wxprec.h"
-
-#ifndef WX_PRECOMP
-#include "wx/wx.h"
-#endif
 
 #include <map>
 #include <vector>
+#include <wx/string.h>
 typedef std::map<wxString, std::vector< wxString > > synonyms;
 
+class wxWindow;
 class wxThes;
 class Thesaurus
 {
