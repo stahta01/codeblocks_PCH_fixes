@@ -24,13 +24,14 @@
 
     #include "cbeditor.h"
     #include "configmanager.h"
-    #include "editorcolourset.h"
-    #include "infowindow.h"
     #include "logmanager.h"
 #endif
 
 #include "cbstyledtextctrl.h"
+#include "editorcolourset.h"
 #include "encodingdetector.h"
+#include "infowindow.h"
+
 #include "SearchInPanel.h"
 #include "DirectoryParamsPanel.h"
 #include "ThreadSearch.h"
