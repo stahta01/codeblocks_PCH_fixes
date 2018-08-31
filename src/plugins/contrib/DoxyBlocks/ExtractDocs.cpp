@@ -36,13 +36,14 @@
 #include "sdk.h"
 #ifndef CB_PRECOMP
     #include <cbproject.h>
-    #include <macrosmanager.h>
     #include <projectfile.h>
     #include <projectmanager.h>
 #endif
 #include <wx/busyinfo.h>
 #include <wx/ffile.h>
 #include <wx/utils.h>
+
+#include <macrosmanager.h>
 
 #include "DoxyBlocks.h"
 

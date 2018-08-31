@@ -34,12 +34,12 @@
     #include <configmanager.h>
     #include <editormanager.h>
     #include <logmanager.h>
-    #include <macrosmanager.h>
     #include <projectmanager.h>
 #endif
 #include <cbstyledtextctrl.h>
 #include <configurationpanel.h>
 #include <projectloader_hooks.h>
+#include <macrosmanager.h>
 #include <tinywxuni.h>
 
 #include <wx/tokenzr.h>
