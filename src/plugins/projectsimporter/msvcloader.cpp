@@ -24,13 +24,13 @@
     #include "logmanager.h"
     #include "cbproject.h"
     #include "globals.h"
-    #include "compilerfactory.h"
-    #include "compiler.h"
 #endif
 
 #include <wx/stream.h>
 #include <wx/tokenzr.h>
 
+#include "compilerfactory.h"
+#include "compiler.h"
 #include "prep.h"
 #include "importers_globals.h"
 #include "msvcloader.h"

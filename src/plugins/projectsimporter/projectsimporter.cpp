@@ -23,10 +23,13 @@
     #include "logmanager.h"
     #include "projectmanager.h"
     #include "logmanager.h"
-    #include "compilerfactory.h"
     #include "cbproject.h"
-    #include "cbworkspace.h"
 #endif
+
+#include "cbworkspace.h"
+#include "compilerfactory.h"
+#include "compiler.h"
+#include "filefilters.h"
 
 #include "projectsimporter.h"
 #include "devcpploader.h"
@@ -36,7 +39,6 @@
 #include "msvcloader.h"
 #include "msvcworkspaceloader.h"
 #include "importers_globals.h"
-#include "filefilters.h"
 
 // this auto-registers the plugin
 namespace
