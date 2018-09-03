@@ -16,11 +16,11 @@
     #include <wx/txtstrm.h>
     #include <wx/wfstream.h>
     #include <wx/dataobj.h>
-    #include "cbplugin.h"
     #include "configmanager.h"
 #endif
 
 #include <wx/clipbrd.h>
+#include "cbplugin.h"
 #include "filefilters.h"
 
 #include "backtracedlg.h"

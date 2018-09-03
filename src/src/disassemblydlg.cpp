@@ -24,14 +24,15 @@
 
     #include "cbproject.h"
     #include "configmanager.h"
-    #include "editorcolourset.h"
     #include "editormanager.h"
     #include "globals.h"
     #include "manager.h"
     #include "projectmanager.h"
 #endif
 
+#include "cbplugin.h"
 #include "debuggermanager.h"
+#include "editorcolourset.h"
 #include "filefilters.h"
 
 // Keep in sync with cbEditor.cpp:

@@ -10,8 +10,8 @@
     #include <wx/choicdlg.h>
 
     #include "cbexception.h"
-    #include "cbplugin.h"
 #endif
+#include "cbplugin.h"
 //(*InternalHeaders(DebuggerSettingsDlg)
 #include <wx/button.h>
 #include <wx/font.h>
