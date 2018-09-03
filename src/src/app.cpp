@@ -60,9 +60,10 @@
 
 #ifndef CB_PRECOMP
     #include <wx/dir.h>
-    #include "xtra_res.h"
-    #include "filemanager.h" // LoaderBase
 #endif
+
+#include "filemanager.h" // LoaderBase
+#include "xtra_res.h"
 
 #ifndef APP_PREFIX
 #define APP_PREFIX ""

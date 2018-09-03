@@ -15,10 +15,9 @@
     #include <wx/intl.h>
     #include <wx/textctrl.h>
     #include <wx/xrc/xmlres.h>
-
-    #include "cbplugin.h"
 #endif
 
+#include "cbplugin.h"
 #include "examinememorydlg.h"
 #include "debuggermanager.h"
 

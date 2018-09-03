@@ -15,6 +15,7 @@
 #include <wx/statline.h>
 #include <wx/treebook.h>
 //*)
+#include "scrollingdialog.h"
 
 class cbDebuggerConfiguration;
 class cbDebuggerPlugin;

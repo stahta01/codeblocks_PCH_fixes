@@ -10,28 +10,28 @@
 #include "sdk.h"
 #ifndef CB_PRECOMP
     #include <wx/app.h>
-    #include <wx/dnd.h>
-    #include <wx/fontutil.h>
     #include <wx/menu.h>
     #include <wx/settings.h>
     #include <wx/sizer.h>
 
     #include "cbexception.h"
-    #include "cbplugin.h"
     #include "logmanager.h"
-    #include "scrollingdialog.h"
 #endif
 
 #include <numeric>
 #include <map>
 #include <algorithm>
 
+#include <wx/dnd.h>
+#include <wx/fontutil.h>
 #include <wx/propgrid/propgrid.h>
 
 #include "watchesdlg.h"
 
 #include "cbcolourmanager.h"
+#include "cbplugin.h"
 #include "debuggermanager.h"
+#include "scrollingdialog.h"
 
 namespace
 {

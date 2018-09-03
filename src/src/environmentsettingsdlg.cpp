@@ -31,21 +31,22 @@
     #include <manager.h>
     #include <configmanager.h>
     #include <editormanager.h>
-    #include <pluginmanager.h>
     #include <logmanager.h>
     #include "appglobals.h"
     #include "globals.h"
     #include "associations.h"
-    #include "cbauibook.h"
 #endif
 
 #include <wx/aui/aui.h>
 #include <wx/listbook.h>
 
 #include "annoyingdialog.h"
+#include "cbauibook.h"
+#include "cbplugin.h"
 #include "configurationpanel.h"
 #include "environmentsettingsdlg.h"
 #include "cbcolourmanager.h"
+#include <pluginmanager.h>
 
 #ifdef __WXMSW__
     #include "associations.h"

@@ -28,16 +28,16 @@
     #include <wx/xrc/xmlres.h>
 
     #include "manager.h"
-    #include "cbauibook.h"
     #include "cbeditor.h"
-    #include "cbplugin.h" // cgEditor
     #include "configmanager.h"
     #include "editormanager.h"
     #include "globals.h"
-    #include "pluginmanager.h"
 #endif
+#include "cbauibook.h"
+#include "cbplugin.h" // cgEditor
 #include "cbstyledtextctrl.h"
 #include "cbcolourmanager.h"
+#include "pluginmanager.h"
 
 #include <wx/fontdlg.h>
 #include <wx/fontutil.h>

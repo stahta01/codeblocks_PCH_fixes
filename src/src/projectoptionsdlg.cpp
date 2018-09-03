@@ -12,14 +12,10 @@
 #ifndef CB_PRECOMP
     #include "manager.h"
     #include "logmanager.h"
-    #include "macrosmanager.h"
     #include "pluginmanager.h"
     #include "projectmanager.h"
-    #include "scriptingmanager.h"
-    #include "compilerfactory.h"
     #include "globals.h"
     #include "cbproject.h"
-    #include "cbplugin.h"
     #include "sdk_events.h"
 
     #include <wx/button.h>
@@ -41,18 +37,22 @@
 #include "scripting/sqplus/sqplus.h"
 
 #include "annoyingdialog.h"
+#include "cbplugin.h"
+#include "compiler.h"
+#include "compilerfactory.h"
 #include "configurationpanel.h"
 #include "editarrayorderdlg.h"
 #include "editarrayfiledlg.h"
 #include "editpathdlg.h"
 #include "externaldepsdlg.h"
 #include "filefilters.h"
+#include "macrosmanager.h"
 #include "multiselectdlg.h"
 #include "projectdepsdlg.h"
 #include "projectloader.h"
 #include "projectoptionsdlg.h" // class's header file
+#include "scriptingmanager.h"
 #include "virtualbuildtargetsdlg.h"
-
 
 BEGIN_EVENT_TABLE(ProjectOptionsDlg, wxScrollingDialog)
     EVT_UPDATE_UI( -1,                                          ProjectOptionsDlg::OnUpdateUI)
