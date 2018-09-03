@@ -13,7 +13,6 @@
     #include <manager.h>
     #include <configmanager.h>
     #include <pluginmanager.h>
-    #include <cbplugin.h>
     #include <wx/button.h>
     #include <wx/checklst.h>
     #include <wx/filename.h>
@@ -27,6 +26,7 @@
 
 #include <wx/listbook.h>
 
+#include <cbplugin.h>
 #include "configurationpanel.h"
 #include "compilersettingsdlg.h"
 #include "appglobals.h"
