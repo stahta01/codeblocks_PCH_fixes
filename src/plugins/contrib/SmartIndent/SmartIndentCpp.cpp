@@ -1,6 +1,6 @@
-#include "SmartIndentCpp.h"
+#include "sdk.h" // Code::Blocks SDK and precompiled header
 
-#include <sdk.h> // Code::Blocks SDK
+#include "SmartIndentCpp.h"
 
 #ifndef CB_PRECOMP
     #include <cbeditor.h>

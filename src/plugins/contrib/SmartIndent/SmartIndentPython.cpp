@@ -1,6 +1,6 @@
-#include "SmartIndentPython.h"
+#include "sdk.h" // Code::Blocks SDK and precompiled header
 
-#include <sdk.h> // Code::Blocks SDK
+#include "SmartIndentPython.h"
 
 #ifndef CB_PRECOMP
     #include <cbeditor.h>
