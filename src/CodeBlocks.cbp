@@ -85,6 +85,7 @@
 					<Add option="-DLINK_LEXERS" />
 					<Add option="-DSCI_LEXER" />
 					<Add option="-DWXMAKINGDLL_SCI" />
+					<Add option="-DNOPCH" />
 					<Add directory="sdk/wxscintilla/src/scintilla/include" />
 					<Add directory="sdk/wxscintilla/src/scintilla/src" />
 					<Add directory="sdk/wxscintilla/src/scintilla/lexlib" />
@@ -109,6 +110,7 @@
 				<Compiler>
 					<Add option="-DEXPORT_LIB" />
 					<Add option="-DwxPG_SUPPORT_TOOLTIPS" />
+					<Add option="-DNOPCH" />
 					<Add directory="sdk/wxpropgrid/include" />
 					<Add directory="include" />
 				</Compiler>
@@ -720,12 +722,10 @@
 			<Add option="-Winvalid-pch" />
 			<Add option='[[if (GetCompilerFactory().GetCompilerVersionString(_T(&quot;gcc&quot;)) &gt;= _T(&quot;4.8.0&quot;)) print(_T(&quot;-Wno-unused-local-typedefs&quot;));]]' />
 			<Add option="-std=gnu++11" />
-			<Add option="-DHAVE_W32API_H" />
 			<Add option="-D__WXMSW__" />
 			<Add option="-DWXUSINGDLL" />
 			<Add option="-DcbDEBUG" />
 			<Add option="-DCB_PRECOMP" />
-			<Add option="-DWX_PRECOMP" />
 			<Add option="-DwxUSE_UNICODE" />
 			<Add directory="$(#WX.include)" />
 			<Add directory="$(#WX.lib)/gcc_dll$(WX_CFG)/msw$(WX_SUFFIX)" />
