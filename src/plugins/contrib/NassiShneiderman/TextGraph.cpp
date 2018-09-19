@@ -1,3 +1,5 @@
+#include <wx/dc.h>
+
 #include "TextGraph.h"
 
 #include "bricks.h"

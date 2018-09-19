@@ -14,9 +14,12 @@
 #include "TextCtrl.h"
 
 #include <wx/clipbrd.h>
+#include <wx/dcclient.h>
+#include <wx/dcmemory.h>
 #if wxCHECK_VERSION(3, 0, 0)
     #include <wx/dcsvg.h>
 #endif
+#include <wx/filedlg.h>
 #include <wx/wfstream.h>
 
 #if wxUSE_POSTSCRIPT

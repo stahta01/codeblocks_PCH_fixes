@@ -1,3 +1,4 @@
+#include <wx/sizer.h>
 
 #include <manager.h>
 #include <editormanager.h>

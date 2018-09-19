@@ -1,6 +1,8 @@
 #ifndef REDHATCHDRAWLET_H
 #define REDHATCHDRAWLET_H
 
+#include <wx/gdicmn.h>
+
 #include "HooverDrawlet.h"
 
 

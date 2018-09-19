@@ -4,7 +4,7 @@
 #endif
 
 //#include <wx/dcmemory.h>
-//#include <wx/msgdlg.h>
+#include <wx/msgdlg.h>
 //#include <wx/mstream.h>
 //#include <wx/txtstrm.h>
 

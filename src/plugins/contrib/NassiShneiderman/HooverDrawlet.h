@@ -3,14 +3,10 @@
 #ifndef HooverDrawlet_h
 #define HooverDrawlet_h
 
-// For compilers that support precompilation, includes <wx/wx.h>
-#include <wx/wxprec.h>
-
-#ifndef WX_PRECOMP
-    #include <wx/wx.h>
-#endif
 
 // END Interface Dependencies -----------------------------------------
+
+class wxDC;
 
 class HooverDrawlet
 {
