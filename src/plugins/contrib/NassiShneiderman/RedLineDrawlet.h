@@ -1,6 +1,8 @@
 #ifndef REDLINEDRAWLET_H
 #define REDLINEDRAWLET_H
 
+#include <wx/gdicmn.h>
+
 #include "HooverDrawlet.h"
 
 

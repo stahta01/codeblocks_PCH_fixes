@@ -1,4 +1,6 @@
+#include <wx/menu.h>
 #include <wx/sstream.h>
+#include <wx/toolbar.h>
 #include <wx/txtstrm.h>
 
 

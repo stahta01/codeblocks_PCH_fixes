@@ -1,3 +1,7 @@
+#include <wx/brush.h>
+#include <wx/dc.h>
+#include <wx/pen.h>
+
 #include <manager.h>
 
 #include "GraphBricks.h"

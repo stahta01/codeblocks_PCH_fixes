@@ -1,3 +1,6 @@
+#include <wx/event.h>
+#include <wx/mstream.h>
+
 #include "InsertBrickTask.h"
 #include "GraphBricks.h"
 #include "RedLineDrawlet.h"
@@ -5,9 +8,6 @@
 #include "NassiFileContent.h"
 #include "commands.h"
 #include "NassiView.h"
-
-
-#include <wx/mstream.h>
 
 
 #if defined(__WXGTK__)

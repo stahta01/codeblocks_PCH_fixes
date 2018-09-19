@@ -1,4 +1,8 @@
+#include <wx/dc.h>
+#include <wx/version.h>
+
 #include "RedLineDrawlet.h"
+
 
 RedLineDrawlet::RedLineDrawlet(wxPoint pos, wxCoord length, bool vertical):
     m_pos(pos),
